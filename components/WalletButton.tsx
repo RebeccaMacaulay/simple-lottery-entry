@@ -1,7 +1,6 @@
 "use client";
 
 import { useConnect, useAccount, useDisconnect } from "wagmi";
-import { getWalletSnapshot } from "@/lib/mock-data";
 
 function shortenAddress(address: string) {
   return `${address.slice(0, 6)}...${address.slice(-4)}`;
@@ -11,8 +10,6 @@ export function WalletButton() {
   const { address, isConnected, chain } = useAccount();
   const { connect, connectors, isPending } = useConnect();
   const { disconnect } = useDisconnect();
-  const fallback = getWalletSnapshot();
-  const resolvedAddress = address ?? fallback.address;
   const injectedConnector = connectors[0];
 
   function handleClick() {
@@ -40,11 +37,9 @@ export function WalletButton() {
     >
       {isPending
         ? "Connecting"
-        : isConnected
-          ? `${shortenAddress(resolvedAddress)} on ${chain?.name ?? "Base"}`
-          : `Connect ${shortenAddress(resolvedAddress)}`}
+        : isConnected && address
+          ? `${shortenAddress(address)} on ${chain?.name ?? "Base"}`
+          : "Connect Wallet"}
     </button>
   );
 }
-
-

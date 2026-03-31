@@ -3,21 +3,35 @@ import "./globals.css";
 import { AppProviders } from "@/components/AppProviders";
 import { HallHeader } from "@/components/HallHeader";
 import { SideColumnNav } from "@/components/SideColumnNav";
+import {
+  APP_DESCRIPTION,
+  APP_NAME,
+  APP_OG_IMAGE,
+  APP_TITLE,
+  APP_URL,
+  BASE_APP_ID,
+  TALENT_VERIFICATION,
+  miniAppEmbed,
+} from "@/lib/app-config";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <meta name="base:app_id" content="69cb45e4a7654b8774320f2c" />
-        <meta
-          name="talentapp:project_verification"
-          content="bdfc81907c33e7fa480ec5415e31fd2cc509382c1b23e4d48db566bb8a9af1e303fa5dd94479b55f15e5cb9e1977a6ef039858639537c4fbb1e91ba3b91e5410"
-        />
-        <title>simple-lottery-entry</title>
-        <meta
-          name="description"
-          content="A Base mini app for elegant one-time lottery registration."
-        />
+        <meta name="base:app_id" content={BASE_APP_ID} />
+        <meta name="talentapp:project_verification" content={TALENT_VERIFICATION} />
+        <meta name="fc:miniapp" content={JSON.stringify(miniAppEmbed)} />
+        <meta property="og:title" content={APP_TITLE} />
+        <meta property="og:description" content={APP_DESCRIPTION} />
+        <meta property="og:image" content={APP_OG_IMAGE} />
+        <meta property="og:url" content={APP_URL} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={APP_TITLE} />
+        <meta name="twitter:description" content={APP_DESCRIPTION} />
+        <meta name="twitter:image" content={APP_OG_IMAGE} />
+        <title>{APP_NAME}</title>
+        <meta name="description" content={APP_DESCRIPTION} />
       </head>
       <body>
         <AppProviders>
@@ -37,5 +51,3 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
-
-

@@ -1,17 +1,25 @@
 import { createConfig, http } from "wagmi";
 import { injected } from "wagmi/connectors";
 import { base } from "wagmi/chains";
+import { BUILDER_CODE, BUILDER_DATA_SUFFIX } from "@/lib/app-config";
 
 export const wagmiConfig = createConfig({
   chains: [base],
   connectors: [injected()],
   transports: {
-    [base.id]: http(),
+    [base.id]: http(undefined, {
+      fetchOptions: {
+        headers: {
+          "x-builder-code": BUILDER_CODE,
+        },
+      },
+      retryCount: 2,
+    }),
   },
+  multiInjectedProviderDiscovery: false,
 });
 
-// TODO(builder-code): Replace the placeholder below with the final builder code suffix
-// once the production value is provided for Base mini app attribution metadata.
-export const builderCodeSuffix = "TODO_REPLACE_WITH_BUILDER_CODE_SUFFIX";
-
-
+// Base builder attribution values used for ERC-8021 / transaction analytics.
+// `BUILDER_DATA_SUFFIX` must be appended to live writes so Base can attribute tx volume correctly.
+export const builderCode = BUILDER_CODE;
+export const builderCodeSuffix = BUILDER_DATA_SUFFIX;

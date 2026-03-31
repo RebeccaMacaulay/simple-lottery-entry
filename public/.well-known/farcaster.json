@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "REPLACE_WITH_FARCASTER_HEADER",
+    "payload": "REPLACE_WITH_FARCASTER_PAYLOAD",
+    "signature": "REPLACE_WITH_FARCASTER_SIGNATURE"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Simple Lottery Entry",
+    "iconUrl": "https://simple-lottery-entry.vercel.app/icon-ticket.png",
+    "homeUrl": "https://simple-lottery-entry.vercel.app",
+    "imageUrl": "https://simple-lottery-entry.vercel.app/og-ticket.png",
+    "buttonTitle": "Enter Lottery",
+    "splashImageUrl": "https://simple-lottery-entry.vercel.app/icon-ticket.png",
+    "splashBackgroundColor": "#7C1F3A",
+    "subtitle": "Entry / Lottery Registration",
+    "description": "One-time lottery registration on Base with ticket-style confirmation.",
+    "primaryCategory": "events",
+    "tags": ["base", "lottery", "entry", "raffle"],
+    "heroImageUrl": "https://simple-lottery-entry.vercel.app/og-ticket.png",
+    "tagline": "One address, one pass",
+    "ogTitle": "Simple Lottery Entry",
+    "ogDescription": "Register once, confirm your pass, and keep your Base ticket ready.",
+    "ogImageUrl": "https://simple-lottery-entry.vercel.app/og-ticket.png"
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0x1fbd24E7aAeF4cc99240012523c463e04Ed39139"],
+    "builderCode": "bc_58sb3x7v"
+  }
+}
