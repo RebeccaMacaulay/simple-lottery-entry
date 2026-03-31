@@ -4,7 +4,7 @@
     "payload": "REPLACE_WITH_FARCASTER_PAYLOAD",
     "signature": "REPLACE_WITH_FARCASTER_SIGNATURE"
   },
-  "frame": {
+  "miniapp": {
     "version": "1",
     "name": "Simple Lottery Entry",
     "iconUrl": "https://simple-lottery-entry.vercel.app/icon-ticket.png",
@@ -28,3 +28,4 @@
     "builderCode": "bc_58sb3x7v"
   }
 }
+
