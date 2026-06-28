@@ -90,3 +90,10 @@ If no run command is documented yet, inspect the source files and update this RE
 3. Install any required dependencies.
 4. Run the main application or script.
 5. Test the expected lottery entry behavior.
+6. Document any confirmed setup or usage commands.
+
+## Development Notes
+
+Keep changes small and easy to review.
+
+When adding new functionality, consider documenting:
