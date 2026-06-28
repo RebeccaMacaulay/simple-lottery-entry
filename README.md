@@ -5,3 +5,13 @@ A small project for working with simple lottery-style entries.
 Repository: https://github.com/RebeccaMacaulay/simple-lottery-entry.git
 
 ## Overview
+
+`simple-lottery-entry` is intended to be a straightforward project for creating, storing, or working with lottery entry data.
+
+The original project description is minimal, so this README focuses on practical guidance for getting the repository locally, reviewing the source, and running it according to the files included in the project.
+
+Use this README as a starting point for development, testing, and future documentation updates.
+
+## Features
+
+- Simple project structure for a lottery entry workflow.
