@@ -48,3 +48,11 @@ Because the original README does not specify a technology stack, check the repos
 - `build.gradle`
 - `composer.json`
 - `Makefile`
+
+These files usually indicate how dependencies should be installed and how the project should be run.
+
+## Installation
+
+Clone the repository:
+
+`git clone https://github.com/RebeccaMacaulay/simple-lottery-entry.git`
