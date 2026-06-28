@@ -15,3 +15,11 @@ Use this README as a starting point for development, testing, and future documen
 ## Features
 
 - Simple project structure for a lottery entry workflow.
+- Easy to clone and inspect locally.
+- Suitable for extending with additional entry, validation, or selection logic.
+- Clear repository identity and source location.
+- Lightweight documentation that can grow as the project evolves.
+
+## Repository
+
+The project is hosted at:
