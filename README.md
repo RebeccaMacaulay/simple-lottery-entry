@@ -115,3 +115,10 @@ If tests are present, run them using the test tool associated with the project.
 If tests are not present, consider adding tests for:
 
 - Creating an entry.
+- Validating entry data.
+- Handling invalid input.
+- Selecting an entry.
+- Empty-entry behavior.
+- Duplicate-entry behavior, if relevant.
+
+## Documentation
