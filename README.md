@@ -107,3 +107,11 @@ When adding new functionality, consider documenting:
 If the project includes lottery entry selection logic, make sure the behavior is clearly documented so future contributors can understand how entries are handled.
 
 ## Testing
+
+The original README does not list a test command.
+
+If tests are present, run them using the test tool associated with the project.
+
+If tests are not present, consider adding tests for:
+
+- Creating an entry.
