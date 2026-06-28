@@ -97,3 +97,13 @@ If no run command is documented yet, inspect the source files and update this RE
 Keep changes small and easy to review.
 
 When adding new functionality, consider documenting:
+
+- What the feature does.
+- How to run it.
+- Any required input format.
+- Any expected output format.
+- How to test the change.
+
+If the project includes lottery entry selection logic, make sure the behavior is clearly documented so future contributors can understand how entries are handled.
+
+## Testing
