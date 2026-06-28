@@ -122,3 +122,13 @@ If tests are not present, consider adding tests for:
 - Duplicate-entry behavior, if relevant.
 
 ## Documentation
+
+Update this README whenever project behavior becomes clearer.
+
+Useful additions may include:
+
+- Exact installation commands.
+- Exact run commands.
+- Example input.
+- Example output.
+- Screenshots, if there is a user interface.
