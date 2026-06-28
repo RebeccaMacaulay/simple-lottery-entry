@@ -39,3 +39,12 @@ Before running the project, make sure you have:
 - Any package manager required by the project files, if applicable.
 
 Because the original README does not specify a technology stack, check the repository contents for files such as:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Gemfile`
+- `pom.xml`
+- `build.gradle`
+- `composer.json`
+- `Makefile`
