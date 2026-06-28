@@ -82,3 +82,11 @@ For example, look for common files such as:
 - `tests/`
 
 If no run command is documented yet, inspect the source files and update this README once the correct usage is confirmed.
+
+## Suggested Workflow
+
+1. Clone the repository.
+2. Review the project structure.
+3. Install any required dependencies.
+4. Run the main application or script.
+5. Test the expected lottery entry behavior.
