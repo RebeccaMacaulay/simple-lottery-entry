@@ -23,3 +23,11 @@ Use this README as a starting point for development, testing, and future documen
 ## Repository
 
 The project is hosted at:
+
+https://github.com/RebeccaMacaulay/simple-lottery-entry.git
+
+## Getting Started
+
+Follow the steps below to set up the project locally.
+
+## Prerequisites
