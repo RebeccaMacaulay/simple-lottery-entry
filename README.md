@@ -157,3 +157,11 @@ Recommended contribution steps:
 ## Notes
 
 This README is intentionally practical because the original README only included the project title and repository link.
+
+As the project grows, replace placeholder guidance with confirmed commands and examples from the codebase.
+
+## License
+
+No license information was provided in the original README.
+
+If a license file exists in the repository, refer to that file for license details.
