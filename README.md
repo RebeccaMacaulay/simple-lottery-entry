@@ -140,3 +140,11 @@ Useful additions may include:
 The exact structure depends on the files in the repository.
 
 A future version of this README can include a tree view of the project once the key files and folders are confirmed.
+
+## Contributing
+
+Contributions should keep the project simple, readable, and easy to maintain.
+
+Before making larger changes, review the current code and document any assumptions.
+
+Recommended contribution steps:
