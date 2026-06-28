@@ -132,3 +132,11 @@ Useful additions may include:
 - Example input.
 - Example output.
 - Screenshots, if there is a user interface.
+- A project structure section.
+- Contribution guidelines.
+
+## Project Structure
+
+The exact structure depends on the files in the repository.
+
+A future version of this README can include a tree view of the project once the key files and folders are confirmed.
