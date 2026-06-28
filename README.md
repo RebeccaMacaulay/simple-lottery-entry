@@ -56,3 +56,11 @@ These files usually indicate how dependencies should be installed and how the pr
 Clone the repository:
 
 `git clone https://github.com/RebeccaMacaulay/simple-lottery-entry.git`
+
+Move into the project directory:
+
+`cd simple-lottery-entry`
+
+Review the files in the project directory to determine the correct setup steps.
+
+If a dependency file is present, install dependencies using the appropriate package manager for that file.
