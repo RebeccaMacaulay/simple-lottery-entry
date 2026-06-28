@@ -72,3 +72,13 @@ After setup, run the project using the command or entry point provided by the re
 If the project includes a script, application file, or build command, use that as the starting point.
 
 For example, look for common files such as:
+
+- `README.md`
+- `src/`
+- `app/`
+- `main.*`
+- `index.*`
+- `scripts/`
+- `tests/`
+
+If no run command is documented yet, inspect the source files and update this README once the correct usage is confirmed.
