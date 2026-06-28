@@ -31,3 +31,11 @@ https://github.com/RebeccaMacaulay/simple-lottery-entry.git
 Follow the steps below to set up the project locally.
 
 ## Prerequisites
+
+Before running the project, make sure you have:
+
+- Git installed.
+- A suitable runtime or development environment for the language used in the repository.
+- Any package manager required by the project files, if applicable.
+
+Because the original README does not specify a technology stack, check the repository contents for files such as:
