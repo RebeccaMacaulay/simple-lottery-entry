@@ -148,3 +148,12 @@ Contributions should keep the project simple, readable, and easy to maintain.
 Before making larger changes, review the current code and document any assumptions.
 
 Recommended contribution steps:
+
+1. Create a focused change.
+2. Test the change locally.
+3. Update documentation if behavior changes.
+4. Submit the change with a clear description.
+
+## Notes
+
+This README is intentionally practical because the original README only included the project title and repository link.
