@@ -64,3 +64,11 @@ Move into the project directory:
 Review the files in the project directory to determine the correct setup steps.
 
 If a dependency file is present, install dependencies using the appropriate package manager for that file.
+
+## Usage
+
+After setup, run the project using the command or entry point provided by the repository.
+
+If the project includes a script, application file, or build command, use that as the starting point.
+
+For example, look for common files such as:
